@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Palindrome Checker</h1>
+        <p>
+            <i class="fas fa-info-circle" aria-label="Note"></i>
+            A palindrome is a word or sentence that's spelled the same way both
+            forward and backward, ignoring punctuation, case, and spacing.
+        </p>
+    </header>
+    <main>
+        <form>
+            <label for="text-input">Enter in text to check for a palindrome:</label>
+            <div>
+                <input type="text" id="text-input" required>
+                <button type="button" id="check-btn">Check</button>
+            </div>
+        </form>
+        <div id="result"></div>
+    </main>
+    <footer>
+        <p>&copy;
+            <script>document.write(new Date().getFullYear());</script> Palindrome Checker. All rights reserved.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
